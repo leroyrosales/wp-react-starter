@@ -55,6 +55,10 @@ define( 'SECURE_AUTH_SALT', '1MLIK|N6p@q(4,4S8<p()9/vNoK(5}:4&FNP6*C)dNyPIJoY/ZN
 define( 'LOGGED_IN_SALT',   'i{6bb#G@CKEuej.L1g|V}q_js/I(eYvYw~l8t<#mmVZd 9-p0)SQZH+w bbMC?]M' );
 define( 'NONCE_SALT',       '%Zikf4[u3-p|QQdoc:qGa&r^E0_6+U-v%.LCDqtK<kN-LX-QI:LAte>Xx/H`|t47' );
 
+# JWT Secret Key
+define('JWT_AUTH_SECRET_KEY', 'wp-react-starter-1');
+define('JWT_AUTH_CORS_ENABLE', true);
+
 /**#@-*/
 
 /**
