@@ -1,0 +1,4 @@
+name: wp-react-site
+recipe: wordpress
+config:
+  webroot: .
