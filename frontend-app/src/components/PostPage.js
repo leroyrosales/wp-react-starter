@@ -10,7 +10,7 @@ export class PostPage extends Component {
 
     componentDidMount(){
         // wp site url
-        const wpUrl = 'http://wp-react-site.lndo.site';
+        const wpUrl = 'http://wpreactsite.lndo.site';
         axios.get(wpUrl + `/wp-json/wp/v2/posts/${this.props.match.params.id}`)
             .then(res => (
                 this.setState({

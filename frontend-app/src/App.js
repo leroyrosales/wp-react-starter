@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import './App.css';
 import Posts from './components/Posts';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import PostPage from './components/PostPage';

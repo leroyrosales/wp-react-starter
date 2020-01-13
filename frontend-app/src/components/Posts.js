@@ -10,7 +10,7 @@ export class Posts extends Component {
 
     componentDidMount(){
         // wp site url
-        const wpUrl = 'http://wp-react-site.lndo.site';
+        const wpUrl = 'http://wpreactsite.lndo.site';
 
         // axios to fetch data
         axios.get(wpUrl + '/wp-json/wp/v2/posts')
@@ -32,6 +32,7 @@ export class Posts extends Component {
                     <PostItem key={post.id} post={post} />
                    ))}
                 </div>
+
             )
         }
 

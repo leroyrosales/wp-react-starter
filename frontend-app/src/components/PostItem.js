@@ -15,7 +15,7 @@ export class PostItem extends Component {
 
     componentDidMount(){
         // wp site url
-        const wpUrl = 'http://wp-react-site.lndo.site';
+        const wpUrl = 'http://wpreactsite.lndo.site';
         const { featured_media, author } = this.props.post;
         const getImageUrl = axios.get(wpUrl +`/wp-json/wp/v2/media/${featured_media}`);
         const getAuthor = axios.get(wpUrl + `/wp-json/wp/v2/users/${author}`);
