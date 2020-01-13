@@ -4,7 +4,7 @@ A starter kit to create a decoupled WordPress ([https://wordpress.org/](https://
 
 ## Getting started
 
-If you're new, or have not used Lando, be sure to have [https://www.docker.com/](Docker) installed. Check out Lando's WordPress documentation at [https://docs.lando.dev/config/wordpress.html](https://docs.lando.dev/config/wordpress.html).
+If you're new, or have not used Lando, be sure to have Docker [https://www.docker.com/](https://www.docker.com/) installed. Check out Lando's WordPress documentation at [https://docs.lando.dev/config/wordpress.html](https://docs.lando.dev/config/wordpress.html).
 
 1. `git clone` this repo
 2. `cd wp-react-starter`
