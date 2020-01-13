@@ -27,7 +27,7 @@ export class Posts extends Component {
         
         if(isLoaded) {
             return (
-                <div>
+                <div className="container mx-auto px-4 py-6">
                    { posts.map(post => (
                     <PostItem key={post.id} post={post} />
                    ))}

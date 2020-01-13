@@ -37,11 +37,11 @@ export class PostItem extends Component {
         if(isLoaded){
             return (
                 <div>
-                    <h2>{ title.rendered }</h2>
+                    <h2 className="font-sans text-6xl text-gray-800 text-center">{ title.rendered }</h2>
                     <small>{ author }</small>
-                    <img src={ imgUrl } />
+                    <img className="object-contain h-48 w-full my-5" src={ imgUrl } />
                     <p dangerouslySetInnerHTML={{ __html: excerpt.rendered }} />
-                    <Link to ={`/post/${id}`}>Check this post</Link>
+                    <Link to ={`/post/${id}`} className="text-blue-500">Check this post</Link>
                 </div>
             )
         }
